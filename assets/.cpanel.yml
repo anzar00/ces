@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/myt8324ji2zh/public_html/conceptengineeringservice.com
+    - /bin/cp -R * $DEPLOYPATH
